@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* ----------------
+    header
+----------------- */
+
+.container{
+    background: #2D25A0;
+    height: 640px;
+    width: 1350px;
+}
+
+.banner{
+    display: flex;
+}
+
+.detail-aria{
+    margin-top: 15%;
+    margin-left: 10%;
+}
+
+.detail-aria h1{
+    width: 400px;
+    height: auto;
+    color: white;
+    margin-bottom: 30%;
+}
+.detail-aria a{
+    text-decoration: none;
+    background-color: tomato;
+    color: white;
+    border-radius: 6px;
+    padding: 15px 50px;
+}
+
+.poster-aria{
+    margin-top: 10%;
+    margin-left: 15%;
+}
+
+.poster-aria img{
+    width: 500px;
+    height: auto;
+}
+
+
+/* ----------------
+    main-section
+---------------- */
+
+
+
+/* .main{
+
+} */
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.player{
+    width: 200px;
+    height: auto;
+    margin: 10%;
+}
+
+.photos img{
+    width: 200px;
+    height: auto;
+}
+
+.text-aria{
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+}
+
+
+/* ------------------------
+    Highlights-section
+------------------------- */
+
+
+.Highlights{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.Copa-America{
+    width: 400px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: -30px;
+}
+
+.copa-aria{
+    width: 400px;
+    height: auto;
+}
+
+.copa-aria h1{
+    width: 800px;
+    height: auto;
+    font-weight: 800;
+}
+
+.copa-aria p{
+    margin-top: 20px;
+    margin-bottom: 20%;
+}
+.copa-aria a{
+    text-decoration: none;
+    background-color: tomato;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 6px;
+}
+
+.match{
+    width: 400px;
+    height: auto;
+}
+
+.match-aria img{
+    width: 400px;
+    height: auto;
+    margin-left: 30%;
+}
+
+/* ---------------
+    footer
+---------------- */
+
+
+/* .footer{
+    
+} */
+
+.footer-logo img{
+    width: 500px;
+    height: auto;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+.sci{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 40%;
+    margin-bottom: 50px;
+}
+
+.sci img{
+    width: 30px;
+    height: auto;
+    margin-left: 30px;
+
+}
+
+.footer p{
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+
+
+
